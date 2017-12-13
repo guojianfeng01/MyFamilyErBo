@@ -1,0 +1,802 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PathMenuItemDelegate"
+- "PathMenuItem"
+provides-nominal:
+- "13MyFamilyErBao20PathMenuItemDelegateP"
+- "13MyFamilyErBao12PathMenuItemC"
+provides-member:
+- ["13MyFamilyErBao20PathMenuItemDelegateP", ""]
+- ["13MyFamilyErBao12PathMenuItemC", ""]
+provides-dynamic-lookup:
+- "isHighlighted"
+- "layoutSubviews"
+- "touchesBegan"
+- "touchesCancelled"
+- "touchesEnded"
+- "touchesMoved"
+depends-top-level:
+- !private "!"
+- !private "*"
+- !private "-"
+- !private "/"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CGFloat"
+- "CGPoint"
+- "CGRect"
+- "NSCoder"
+- "PathMenuItem"
+- "PathMenuItemDelegate"
+- "Set"
+- !private "StringLiteralType"
+- "UIEvent"
+- "UIImage"
+- "UIImageView"
+- "UITouch"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["So15CALayerDelegateP", "CGPoint"]
+- !private ["So15CALayerDelegateP", "CGRect"]
+- !private ["So15CALayerDelegateP", "UIImageView"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "contentImageView"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "highlightedImage"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isHighlighted"]
+- !private ["So15CALayerDelegateP", "isUserInteractionEnabled"]
+- !private ["So15CALayerDelegateP", "layoutSubviews"]
+- !private ["So15CALayerDelegateP", "scale"]
+- ["So15CALayerDelegateP", ""]
+- ["SC7CGPointV", "zero"]
+- !private ["SC6CGRectV", "contains"]
+- !private ["SC6CGRectV", "init"]
+- !private ["SC6CGRectV", "size"]
+- !private ["SC6CGRectV", "zero"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["SC6CGSizeV", "width"]
+- ["s7CVarArgP", "CGPoint"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "UIImageView"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "contentImageView"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "highlightedImage"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHighlighted"]
+- !private ["s7CVarArgP", "isUserInteractionEnabled"]
+- !private ["s7CVarArgP", "layoutSubviews"]
+- !private ["s7CVarArgP", "location"]
+- !private ["s7CVarArgP", "scale"]
+- !private ["s7CVarArgP", "size"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "first"]
+- !private ["7SnapKit24ConstraintConstantTargetP", "height"]
+- !private ["7SnapKit24ConstraintConstantTargetP", "width"]
+- ["7SnapKit24ConstraintConstantTargetP", "zero"]
+- ["7SnapKit25ConstraintRelatableTargetP", "CGPoint"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "CGRect"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UIImageView"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "addSubview"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "bounds"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "contentImageView"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "delegate"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "frame"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "height"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "highlightedImage"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "image"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "isHighlighted"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "isUserInteractionEnabled"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "layoutSubviews"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "scale"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "width"]
+- ["7SnapKit25ConstraintRelatableTargetP", "zero"]
+- ["7SnapKit25ConstraintRelatableTargetP", ""]
+- ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "contentImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "highlightedImage"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHighlighted"]
+- !private ["s28CustomDebugStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutSubviews"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "scale"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- ["s28CustomDebugStringConvertibleP", "zero"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "width"]
+- ["s17CustomReflectableP", "zero"]
+- ["s23CustomStringConvertibleP", "CGPoint"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "UIImageView"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "contentImageView"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "highlightedImage"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHighlighted"]
+- !private ["s23CustomStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s23CustomStringConvertibleP", "layoutSubviews"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "scale"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "contains"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9DecodableP", "width"]
+- ["s9DecodableP", "zero"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "contains"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EncodableP", "width"]
+- ["s9EncodableP", "zero"]
+- ["s9EquatableP", "CGPoint"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "UIImageView"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "contains"]
+- !private ["s9EquatableP", "contentImageView"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "highlightedImage"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isHighlighted"]
+- !private ["s9EquatableP", "isUserInteractionEnabled"]
+- !private ["s9EquatableP", "layoutSubviews"]
+- !private ["s9EquatableP", "location"]
+- !private ["s9EquatableP", "scale"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "width"]
+- ["s9EquatableP", "zero"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "CGPoint"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "UIImageView"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "contentImageView"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "first"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "highlightedImage"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isHighlighted"]
+- !private ["s8HashableP", "isUserInteractionEnabled"]
+- !private ["s8HashableP", "layoutSubviews"]
+- !private ["s8HashableP", "location"]
+- !private ["s8HashableP", "scale"]
+- !private ["s8HashableP", "size"]
+- ["s8HashableP", ""]
+- ["7SnapKit20LayoutConstraintItemP", "CGPoint"]
+- !private ["7SnapKit20LayoutConstraintItemP", "CGRect"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UIImageView"]
+- !private ["7SnapKit20LayoutConstraintItemP", "addSubview"]
+- !private ["7SnapKit20LayoutConstraintItemP", "bounds"]
+- !private ["7SnapKit20LayoutConstraintItemP", "contentImageView"]
+- !private ["7SnapKit20LayoutConstraintItemP", "delegate"]
+- !private ["7SnapKit20LayoutConstraintItemP", "frame"]
+- !private ["7SnapKit20LayoutConstraintItemP", "highlightedImage"]
+- !private ["7SnapKit20LayoutConstraintItemP", "image"]
+- !private ["7SnapKit20LayoutConstraintItemP", "init"]
+- !private ["7SnapKit20LayoutConstraintItemP", "isHighlighted"]
+- !private ["7SnapKit20LayoutConstraintItemP", "isUserInteractionEnabled"]
+- !private ["7SnapKit20LayoutConstraintItemP", "layoutSubviews"]
+- !private ["7SnapKit20LayoutConstraintItemP", "scale"]
+- ["7SnapKit20LayoutConstraintItemP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["So8NSCodingP", "CGPoint"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "UIImageView"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "contentImageView"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "highlightedImage"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHighlighted"]
+- !private ["So8NSCodingP", "isUserInteractionEnabled"]
+- !private ["So8NSCodingP", "layoutSubviews"]
+- !private ["So8NSCodingP", "scale"]
+- !private ["So8NSCodingP", "size"]
+- ["So8NSCodingP", ""]
+- !private ["So21NSItemProviderReadingP", "size"]
+- !private ["So21NSItemProviderWritingP", "size"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "PathMenuItemDelegate"]
+- ["So8NSObjectC", "Set"]
+- ["So8NSObjectC", "UIEvent"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UITouch"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "contentImageView"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "endPoint"]
+- ["So8NSObjectC", "farPoint"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "highlightedImage"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isHighlighted"]
+- !private ["So8NSObjectC", "isUserInteractionEnabled"]
+- ["So8NSObjectC", "layoutSubviews"]
+- !private ["So8NSObjectC", "location"]
+- ["So8NSObjectC", "nearPoint"]
+- ["So8NSObjectC", "scale"]
+- !private ["So8NSObjectC", "size"]
+- ["So8NSObjectC", "startPoint"]
+- ["So8NSObjectC", "touchesBegan"]
+- ["So8NSObjectC", "touchesCancelled"]
+- ["So8NSObjectC", "touchesEnded"]
+- ["So8NSObjectC", "touchesMoved"]
+- ["So16NSObjectProtocolP", "CGPoint"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "UIImageView"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "contentImageView"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "highlightedImage"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isHighlighted"]
+- !private ["So16NSObjectProtocolP", "isUserInteractionEnabled"]
+- !private ["So16NSObjectProtocolP", "layoutSubviews"]
+- !private ["So16NSObjectProtocolP", "location"]
+- !private ["So16NSObjectProtocolP", "scale"]
+- !private ["So16NSObjectProtocolP", "size"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "size"]
+- ["13MyFamilyErBao12PathMenuItemC", "Bool"]
+- !private ["13MyFamilyErBao12PathMenuItemC", "CGFloat"]
+- ["13MyFamilyErBao12PathMenuItemC", "CGPoint"]
+- ["13MyFamilyErBao12PathMenuItemC", "CGRect"]
+- ["13MyFamilyErBao12PathMenuItemC", "NSCoder"]
+- ["13MyFamilyErBao12PathMenuItemC", "PathMenuItemDelegate"]
+- ["13MyFamilyErBao12PathMenuItemC", "Set"]
+- ["13MyFamilyErBao12PathMenuItemC", "UIEvent"]
+- ["13MyFamilyErBao12PathMenuItemC", "UIImage"]
+- ["13MyFamilyErBao12PathMenuItemC", "UIImageView"]
+- ["13MyFamilyErBao12PathMenuItemC", "UITouch"]
+- !private ["13MyFamilyErBao12PathMenuItemC", "addSubview"]
+- !private ["13MyFamilyErBao12PathMenuItemC", "bounds"]
+- ["13MyFamilyErBao12PathMenuItemC", "contentImageView"]
+- ["13MyFamilyErBao12PathMenuItemC", "deinit"]
+- ["13MyFamilyErBao12PathMenuItemC", "delegate"]
+- ["13MyFamilyErBao12PathMenuItemC", "endPoint"]
+- ["13MyFamilyErBao12PathMenuItemC", "farPoint"]
+- !private ["13MyFamilyErBao12PathMenuItemC", "highlightedImage"]
+- !private ["13MyFamilyErBao12PathMenuItemC", "image"]
+- ["13MyFamilyErBao12PathMenuItemC", "init"]
+- ["13MyFamilyErBao12PathMenuItemC", "isHighlighted"]
+- !private ["13MyFamilyErBao12PathMenuItemC", "isUserInteractionEnabled"]
+- ["13MyFamilyErBao12PathMenuItemC", "layoutSubviews"]
+- ["13MyFamilyErBao12PathMenuItemC", "nearPoint"]
+- !private ["13MyFamilyErBao12PathMenuItemC", "scale"]
+- ["13MyFamilyErBao12PathMenuItemC", "startPoint"]
+- ["13MyFamilyErBao12PathMenuItemC", "touchesBegan"]
+- ["13MyFamilyErBao12PathMenuItemC", "touchesCancelled"]
+- ["13MyFamilyErBao12PathMenuItemC", "touchesEnded"]
+- ["13MyFamilyErBao12PathMenuItemC", "touchesMoved"]
+- ["13MyFamilyErBao20PathMenuItemDelegateP", "PathMenuItem"]
+- ["13MyFamilyErBao20PathMenuItemDelegateP", "touchesBegin"]
+- ["13MyFamilyErBao20PathMenuItemDelegateP", "touchesEnd"]
+- !private ["s8SequenceP", "first"]
+- !private ["s3SetV", "first"]
+- !private ["s10SetAlgebraP", "first"]
+- !private ["s12StaticStringV", "init"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "CGPoint"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "CGRect"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "UIImageView"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addSubview"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "bounds"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "contentImageView"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "delegate"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "frame"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "highlightedImage"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isHighlighted"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isUserInteractionEnabled"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layoutSubviews"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "scale"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", ""]
+- ["So29UIAccessibilityIdentificationP", "CGPoint"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "contentImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "highlightedImage"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHighlighted"]
+- !private ["So29UIAccessibilityIdentificationP", "isUserInteractionEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "layoutSubviews"]
+- !private ["So29UIAccessibilityIdentificationP", "scale"]
+- !private ["So29UIAccessibilityIdentificationP", "size"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So12UIAppearanceP", "CGPoint"]
+- !private ["So12UIAppearanceP", "CGRect"]
+- !private ["So12UIAppearanceP", "UIImageView"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "contentImageView"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "highlightedImage"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isHighlighted"]
+- !private ["So12UIAppearanceP", "isUserInteractionEnabled"]
+- !private ["So12UIAppearanceP", "layoutSubviews"]
+- !private ["So12UIAppearanceP", "scale"]
+- ["So12UIAppearanceP", ""]
+- ["So21UIAppearanceContainerP", "CGPoint"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "UIImageView"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "contentImageView"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "highlightedImage"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHighlighted"]
+- !private ["So21UIAppearanceContainerP", "isUserInteractionEnabled"]
+- !private ["So21UIAppearanceContainerP", "layoutSubviews"]
+- !private ["So21UIAppearanceContainerP", "scale"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So17UICoordinateSpaceP", "CGPoint"]
+- !private ["So17UICoordinateSpaceP", "CGRect"]
+- !private ["So17UICoordinateSpaceP", "UIImageView"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "contentImageView"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "highlightedImage"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isHighlighted"]
+- !private ["So17UICoordinateSpaceP", "isUserInteractionEnabled"]
+- !private ["So17UICoordinateSpaceP", "layoutSubviews"]
+- !private ["So17UICoordinateSpaceP", "scale"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So13UIDynamicItemP", "CGPoint"]
+- !private ["So13UIDynamicItemP", "CGRect"]
+- !private ["So13UIDynamicItemP", "UIImageView"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "contentImageView"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "highlightedImage"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isHighlighted"]
+- !private ["So13UIDynamicItemP", "isUserInteractionEnabled"]
+- !private ["So13UIDynamicItemP", "layoutSubviews"]
+- !private ["So13UIDynamicItemP", "scale"]
+- ["So13UIDynamicItemP", ""]
+- ["So18UIFocusEnvironmentP", "CGPoint"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "UIImageView"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "contentImageView"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "highlightedImage"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHighlighted"]
+- !private ["So18UIFocusEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UIFocusEnvironmentP", "layoutSubviews"]
+- !private ["So18UIFocusEnvironmentP", "scale"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So11UIFocusItemP", "CGPoint"]
+- !private ["So11UIFocusItemP", "CGRect"]
+- !private ["So11UIFocusItemP", "UIImageView"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "contentImageView"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "highlightedImage"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isHighlighted"]
+- !private ["So11UIFocusItemP", "isUserInteractionEnabled"]
+- !private ["So11UIFocusItemP", "layoutSubviews"]
+- !private ["So11UIFocusItemP", "scale"]
+- ["So11UIFocusItemP", ""]
+- !private ["So7UIImageC", "size"]
+- ["So11UIImageViewC", "Bool"]
+- !private ["So11UIImageViewC", "CGFloat"]
+- ["So11UIImageViewC", "CGPoint"]
+- ["So11UIImageViewC", "CGRect"]
+- ["So11UIImageViewC", "NSCoder"]
+- ["So11UIImageViewC", "PathMenuItemDelegate"]
+- ["So11UIImageViewC", "Set"]
+- ["So11UIImageViewC", "UIEvent"]
+- ["So11UIImageViewC", "UIImage"]
+- ["So11UIImageViewC", "UIImageView"]
+- ["So11UIImageViewC", "UITouch"]
+- !private ["So11UIImageViewC", "addSubview"]
+- !private ["So11UIImageViewC", "bounds"]
+- ["So11UIImageViewC", "contentImageView"]
+- ["So11UIImageViewC", "delegate"]
+- ["So11UIImageViewC", "endPoint"]
+- ["So11UIImageViewC", "farPoint"]
+- !private ["So11UIImageViewC", "frame"]
+- !private ["So11UIImageViewC", "highlightedImage"]
+- !private ["So11UIImageViewC", "image"]
+- ["So11UIImageViewC", "init"]
+- ["So11UIImageViewC", "isHighlighted"]
+- !private ["So11UIImageViewC", "isUserInteractionEnabled"]
+- ["So11UIImageViewC", "layoutSubviews"]
+- ["So11UIImageViewC", "nearPoint"]
+- ["So11UIImageViewC", "scale"]
+- ["So11UIImageViewC", "startPoint"]
+- ["So11UIImageViewC", "touchesBegan"]
+- ["So11UIImageViewC", "touchesCancelled"]
+- ["So11UIImageViewC", "touchesEnded"]
+- ["So11UIImageViewC", "touchesMoved"]
+- ["So11UIImageViewC", ""]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "size"]
+- ["So30UIPasteConfigurationSupportingP", "CGPoint"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "highlightedImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHighlighted"]
+- !private ["So30UIPasteConfigurationSupportingP", "isUserInteractionEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "layoutSubviews"]
+- !private ["So30UIPasteConfigurationSupportingP", "scale"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", "CGPoint"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "PathMenuItemDelegate"]
+- ["So11UIResponderC", "Set"]
+- ["So11UIResponderC", "UIEvent"]
+- ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UITouch"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "bounds"]
+- ["So11UIResponderC", "contentImageView"]
+- ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "endPoint"]
+- ["So11UIResponderC", "farPoint"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "highlightedImage"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "isHighlighted"]
+- !private ["So11UIResponderC", "isUserInteractionEnabled"]
+- ["So11UIResponderC", "layoutSubviews"]
+- ["So11UIResponderC", "nearPoint"]
+- ["So11UIResponderC", "scale"]
+- ["So11UIResponderC", "startPoint"]
+- ["So11UIResponderC", "touchesBegan"]
+- ["So11UIResponderC", "touchesCancelled"]
+- ["So11UIResponderC", "touchesEnded"]
+- ["So11UIResponderC", "touchesMoved"]
+- ["So30UIResponderStandardEditActionsP", "CGPoint"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "contentImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "highlightedImage"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHighlighted"]
+- !private ["So30UIResponderStandardEditActionsP", "isUserInteractionEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "layoutSubviews"]
+- !private ["So30UIResponderStandardEditActionsP", "scale"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So7UITouchC", "location"]
+- ["So18UITraitEnvironmentP", "CGPoint"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "UIImageView"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "contentImageView"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "highlightedImage"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHighlighted"]
+- !private ["So18UITraitEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UITraitEnvironmentP", "layoutSubviews"]
+- !private ["So18UITraitEnvironmentP", "scale"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "Bool"]
+- !private ["So6UIViewC", "CGFloat"]
+- ["So6UIViewC", "CGPoint"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "PathMenuItemDelegate"]
+- ["So6UIViewC", "Set"]
+- ["So6UIViewC", "UIEvent"]
+- ["So6UIViewC", "UIImage"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UITouch"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "bounds"]
+- ["So6UIViewC", "contentImageView"]
+- ["So6UIViewC", "delegate"]
+- ["So6UIViewC", "endPoint"]
+- ["So6UIViewC", "farPoint"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "highlightedImage"]
+- !private ["So6UIViewC", "image"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "isHighlighted"]
+- !private ["So6UIViewC", "isUserInteractionEnabled"]
+- ["So6UIViewC", "layoutSubviews"]
+- ["So6UIViewC", "nearPoint"]
+- ["So6UIViewC", "scale"]
+- ["So6UIViewC", "startPoint"]
+- ["So6UIViewC", "touchesBegan"]
+- ["So6UIViewC", "touchesCancelled"]
+- ["So6UIViewC", "touchesEnded"]
+- ["So6UIViewC", "touchesMoved"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "CGPoint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGRect"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "highlightedImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isHighlighted"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isUserInteractionEnabled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layoutSubviews"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "scale"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "size"]
+- !private ["s10_IndexableP", "first"]
+- !private ["s14_IndexableBaseP", "first"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "highlightedImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHighlighted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isUserInteractionEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutSubviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- !private "Sb"
+- "So15CALayerDelegateP"
+- "SC7CGPointV"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "7SnapKit24ConstraintConstantTargetP"
+- "7SnapKit25ConstraintRelatableTargetP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "7SnapKit20LayoutConstraintItemP"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "13MyFamilyErBao12PathMenuItemC"
+- "13MyFamilyErBao20PathMenuItemDelegateP"
+- !private "s8SequenceP"
+- !private "s3SetV"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So7UIImageC"
+- "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So7UITouchC"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/SQLCipher/SQLCipher.framework/Headers/sqlite3.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/SQLCipher/SQLCipher.framework/Headers/SQLCipher-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZImagePickerController-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWTableViewUnit-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/UIScrollView+MWInfiniteScrolling.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/UIScrollView+MWPullToRefresh.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWPullToRefresh.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZAssetModel.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/TZPhotoCell.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZAssetCell.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPreviewCell.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWAnimatedGifPullToRefreshConfiguration.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Surpport Files/BridgeOCFileHeader.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZImageManager.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZLocationManager.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZImageCropManager.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/FOREmptyAssistantConfiger.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/NSBundle+TZImagePicker.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZImagePickerController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPickerController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZVideoPlayerController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPreviewController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZGifPhotoPreviewController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWAnimatedGifActivityIndicator.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/UIBarItem+Apperance_swift.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWTableViewUnit.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/FORScrollViewEmptyAssistant.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/UIView+Layout.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/LxGridViewFlowLayout.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZProgressView.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/EmptyViewFactory.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/EmptyViewFactory/MNEmptyViewFactory.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/SQLCipher/SQLCipher.framework/Modules/module.modulemap"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Modules/module.modulemap"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Modules/module.modulemap"
+interface-hash: "279503c36643c5503323402fed6563f4"

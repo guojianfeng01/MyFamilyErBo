@@ -1,0 +1,827 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageDBManger"
+provides-nominal:
+- "13MyFamilyErBao13ImageDBMangerC"
+provides-member:
+- ["13MyFamilyErBao13ImageDBMangerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "=="
+- !private ">"
+- !private "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "DBManager"
+- !private "Dictionary"
+- "Double"
+- "ImageDBManger"
+- "ImageModel"
+- "Int"
+- !private "Int32"
+- "NSObject"
+- !private "SQLITE_DOUBLE_TYPE"
+- !private "SQLITE_INT_TYPE"
+- !private "SQLITE_TEXT_TYPE"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "UserDefaults"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "forEach"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "forEach"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "replacingOccurrences"]
+- !private ["s23BidirectionalCollectionP", "searchSql"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "DBManager"]
+- !private ["s7CVarArgP", "Dictionary"]
+- !private ["s7CVarArgP", "ImageDBManger"]
+- !private ["s7CVarArgP", "ImageModel"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "SQLITE_DOUBLE_TYPE"]
+- !private ["s7CVarArgP", "SQLITE_INT_TYPE"]
+- !private ["s7CVarArgP", "SQLITE_TEXT_TYPE"]
+- !private ["s7CVarArgP", "USER_SQL_TYPE"]
+- !private ["s7CVarArgP", "USER_SQL_UPDATE"]
+- !private ["s7CVarArgP", "USER_SQL_UPDATE_CODE"]
+- !private ["s7CVarArgP", "USER_SQL_VERSION"]
+- !private ["s7CVarArgP", "USER_SQL_VERSION_CODE"]
+- !private ["s7CVarArgP", "USER_TABLENAME"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "createTable"]
+- !private ["s7CVarArgP", "createTime"]
+- !private ["s7CVarArgP", "deleteTable"]
+- !private ["s7CVarArgP", "deleteTableSql"]
+- !private ["s7CVarArgP", "des"]
+- !private ["s7CVarArgP", "dropTable"]
+- !private ["s7CVarArgP", "execSql"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "getAllDataUseSql"]
+- !private ["s7CVarArgP", "getOneData"]
+- !private ["s7CVarArgP", "getOneDataWithId"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "imageDataPath"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insertTable"]
+- !private ["s7CVarArgP", "insertTableSql"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "querySql"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
+- !private ["s7CVarArgP", "searchSql"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "updateTable"]
+- !private ["s7CVarArgP", "updateTableSql"]
+- !private ["s7CVarArgP", "updateValue"]
+- !private ["s7CVarArgP", "value"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "forEach"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "replacingOccurrences"]
+- !private ["s10CollectionP", "searchSql"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "updateValue"]
+- !private ["s10ComparableP", "count"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "replacingOccurrences"]
+- !private ["s10ComparableP", "searchSql"]
+- !private ["7SnapKit24ConstraintConstantTargetP", "init"]
+- !private ["7SnapKit21ConstraintInsetTargetP", "init"]
+- !private ["7SnapKit26ConstraintMultiplierTargetP", "init"]
+- !private ["7SnapKit22ConstraintOffsetTargetP", "init"]
+- !private ["7SnapKit24ConstraintPriorityTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DBManager"]
+- !private ["s28CustomDebugStringConvertibleP", "Dictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "ImageDBManger"]
+- !private ["s28CustomDebugStringConvertibleP", "ImageModel"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "SQLITE_DOUBLE_TYPE"]
+- !private ["s28CustomDebugStringConvertibleP", "SQLITE_INT_TYPE"]
+- !private ["s28CustomDebugStringConvertibleP", "SQLITE_TEXT_TYPE"]
+- !private ["s28CustomDebugStringConvertibleP", "USER_SQL_TYPE"]
+- !private ["s28CustomDebugStringConvertibleP", "USER_SQL_UPDATE"]
+- !private ["s28CustomDebugStringConvertibleP", "USER_SQL_UPDATE_CODE"]
+- !private ["s28CustomDebugStringConvertibleP", "USER_SQL_VERSION"]
+- !private ["s28CustomDebugStringConvertibleP", "USER_SQL_VERSION_CODE"]
+- !private ["s28CustomDebugStringConvertibleP", "USER_TABLENAME"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "createTable"]
+- !private ["s28CustomDebugStringConvertibleP", "createTime"]
+- !private ["s28CustomDebugStringConvertibleP", "deleteTable"]
+- !private ["s28CustomDebugStringConvertibleP", "deleteTableSql"]
+- !private ["s28CustomDebugStringConvertibleP", "des"]
+- !private ["s28CustomDebugStringConvertibleP", "dropTable"]
+- !private ["s28CustomDebugStringConvertibleP", "execSql"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "getAllDataUseSql"]
+- !private ["s28CustomDebugStringConvertibleP", "getOneData"]
+- !private ["s28CustomDebugStringConvertibleP", "getOneDataWithId"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "imageDataPath"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insertTable"]
+- !private ["s28CustomDebugStringConvertibleP", "insertTableSql"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "querySql"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "searchSql"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "updateTable"]
+- !private ["s28CustomDebugStringConvertibleP", "updateTableSql"]
+- !private ["s28CustomDebugStringConvertibleP", "updateValue"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "count"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "replacingOccurrences"]
+- !private ["s29CustomPlaygroundQuickLookableP", "searchSql"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "forEach"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
+- !private ["s17CustomReflectableP", "searchSql"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "updateValue"]
+- !private ["s23CustomStringConvertibleP", "DBManager"]
+- !private ["s23CustomStringConvertibleP", "Dictionary"]
+- !private ["s23CustomStringConvertibleP", "ImageDBManger"]
+- !private ["s23CustomStringConvertibleP", "ImageModel"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_DOUBLE_TYPE"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_INT_TYPE"]
+- !private ["s23CustomStringConvertibleP", "SQLITE_TEXT_TYPE"]
+- !private ["s23CustomStringConvertibleP", "USER_SQL_TYPE"]
+- !private ["s23CustomStringConvertibleP", "USER_SQL_UPDATE"]
+- !private ["s23CustomStringConvertibleP", "USER_SQL_UPDATE_CODE"]
+- !private ["s23CustomStringConvertibleP", "USER_SQL_VERSION"]
+- !private ["s23CustomStringConvertibleP", "USER_SQL_VERSION_CODE"]
+- !private ["s23CustomStringConvertibleP", "USER_TABLENAME"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "createTable"]
+- !private ["s23CustomStringConvertibleP", "createTime"]
+- !private ["s23CustomStringConvertibleP", "deleteTable"]
+- !private ["s23CustomStringConvertibleP", "deleteTableSql"]
+- !private ["s23CustomStringConvertibleP", "des"]
+- !private ["s23CustomStringConvertibleP", "dropTable"]
+- !private ["s23CustomStringConvertibleP", "execSql"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "getAllDataUseSql"]
+- !private ["s23CustomStringConvertibleP", "getOneData"]
+- !private ["s23CustomStringConvertibleP", "getOneDataWithId"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "imageDataPath"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insertTable"]
+- !private ["s23CustomStringConvertibleP", "insertTableSql"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "querySql"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "searchSql"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "updateTable"]
+- !private ["s23CustomStringConvertibleP", "updateTableSql"]
+- !private ["s23CustomStringConvertibleP", "updateValue"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["13MyFamilyErBao9DBManagerC", "createTable"]
+- !private ["13MyFamilyErBao9DBManagerC", "deleteTable"]
+- !private ["13MyFamilyErBao9DBManagerC", "deleteTableSql"]
+- !private ["13MyFamilyErBao9DBManagerC", "dropTable"]
+- !private ["13MyFamilyErBao9DBManagerC", "execSql"]
+- !private ["13MyFamilyErBao9DBManagerC", "insertTable"]
+- !private ["13MyFamilyErBao9DBManagerC", "insertTableSql"]
+- !private ["13MyFamilyErBao9DBManagerC", "querySql"]
+- !private ["13MyFamilyErBao9DBManagerC", "shared"]
+- !private ["13MyFamilyErBao9DBManagerC", "updateTable"]
+- !private ["13MyFamilyErBao9DBManagerC", "updateTableSql"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "forEach"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "replacingOccurrences"]
+- !private ["s9DecodableP", "searchSql"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "updateValue"]
+- !private ["s10DictionaryV", "count"]
+- !private ["s10DictionaryV", "init"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s10DictionaryV", "updateValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "forEach"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "replacingOccurrences"]
+- !private ["s9EncodableP", "searchSql"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "updateValue"]
+- !private ["s9EquatableP", "DBManager"]
+- !private ["s9EquatableP", "Dictionary"]
+- !private ["s9EquatableP", "ImageDBManger"]
+- !private ["s9EquatableP", "ImageModel"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "SQLITE_DOUBLE_TYPE"]
+- !private ["s9EquatableP", "SQLITE_INT_TYPE"]
+- !private ["s9EquatableP", "SQLITE_TEXT_TYPE"]
+- !private ["s9EquatableP", "USER_SQL_TYPE"]
+- !private ["s9EquatableP", "USER_SQL_UPDATE"]
+- !private ["s9EquatableP", "USER_SQL_UPDATE_CODE"]
+- !private ["s9EquatableP", "USER_SQL_VERSION"]
+- !private ["s9EquatableP", "USER_SQL_VERSION_CODE"]
+- !private ["s9EquatableP", "USER_TABLENAME"]
+- !private ["s9EquatableP", "UserDefaults"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "createTable"]
+- !private ["s9EquatableP", "createTime"]
+- !private ["s9EquatableP", "deleteTable"]
+- !private ["s9EquatableP", "deleteTableSql"]
+- !private ["s9EquatableP", "des"]
+- !private ["s9EquatableP", "dropTable"]
+- !private ["s9EquatableP", "execSql"]
+- !private ["s9EquatableP", "getAllDataUseSql"]
+- !private ["s9EquatableP", "getOneData"]
+- !private ["s9EquatableP", "getOneDataWithId"]
+- !private ["s9EquatableP", "id"]
+- !private ["s9EquatableP", "imageDataPath"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "insertTable"]
+- !private ["s9EquatableP", "insertTableSql"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "querySql"]
+- !private ["s9EquatableP", "replacingOccurrences"]
+- !private ["s9EquatableP", "searchSql"]
+- !private ["s9EquatableP", "setValue"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "standard"]
+- !private ["s9EquatableP", "updateTable"]
+- !private ["s9EquatableP", "updateTableSql"]
+- !private ["s9EquatableP", "value"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "updateValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "searchSql"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "searchSql"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "searchSql"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "DBManager"]
+- !private ["s8HashableP", "Dictionary"]
+- !private ["s8HashableP", "ImageDBManger"]
+- !private ["s8HashableP", "ImageModel"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "SQLITE_DOUBLE_TYPE"]
+- !private ["s8HashableP", "SQLITE_INT_TYPE"]
+- !private ["s8HashableP", "SQLITE_TEXT_TYPE"]
+- !private ["s8HashableP", "USER_SQL_TYPE"]
+- !private ["s8HashableP", "USER_SQL_UPDATE"]
+- !private ["s8HashableP", "USER_SQL_UPDATE_CODE"]
+- !private ["s8HashableP", "USER_SQL_VERSION"]
+- !private ["s8HashableP", "USER_SQL_VERSION_CODE"]
+- !private ["s8HashableP", "USER_TABLENAME"]
+- !private ["s8HashableP", "UserDefaults"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "count"]
+- !private ["s8HashableP", "createTable"]
+- !private ["s8HashableP", "createTime"]
+- !private ["s8HashableP", "deleteTable"]
+- !private ["s8HashableP", "deleteTableSql"]
+- !private ["s8HashableP", "des"]
+- !private ["s8HashableP", "dropTable"]
+- !private ["s8HashableP", "execSql"]
+- !private ["s8HashableP", "getAllDataUseSql"]
+- !private ["s8HashableP", "getOneData"]
+- !private ["s8HashableP", "getOneDataWithId"]
+- !private ["s8HashableP", "id"]
+- !private ["s8HashableP", "imageDataPath"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "insertTable"]
+- !private ["s8HashableP", "insertTableSql"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "querySql"]
+- !private ["s8HashableP", "replacingOccurrences"]
+- !private ["s8HashableP", "searchSql"]
+- !private ["s8HashableP", "setValue"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "standard"]
+- !private ["s8HashableP", "updateTable"]
+- !private ["s8HashableP", "updateTableSql"]
+- !private ["s8HashableP", "value"]
+- ["s8HashableP", ""]
+- !private ["13MyFamilyErBao13ImageDBMangerC", "AnyObject"]
+- ["13MyFamilyErBao13ImageDBMangerC", "Bool"]
+- !private ["13MyFamilyErBao13ImageDBMangerC", "DBManager"]
+- !private ["13MyFamilyErBao13ImageDBMangerC", "Dictionary"]
+- ["13MyFamilyErBao13ImageDBMangerC", "Double"]
+- !private ["13MyFamilyErBao13ImageDBMangerC", "ImageDBManger"]
+- ["13MyFamilyErBao13ImageDBMangerC", "ImageModel"]
+- ["13MyFamilyErBao13ImageDBMangerC", "Int"]
+- !private ["13MyFamilyErBao13ImageDBMangerC", "Int32"]
+- !private ["13MyFamilyErBao13ImageDBMangerC", "SQLITE_DOUBLE_TYPE"]
+- !private ["13MyFamilyErBao13ImageDBMangerC", "SQLITE_INT_TYPE"]
+- !private ["13MyFamilyErBao13ImageDBMangerC", "SQLITE_TEXT_TYPE"]
+- ["13MyFamilyErBao13ImageDBMangerC", "String"]
+- ["13MyFamilyErBao13ImageDBMangerC", "USER_SQL_TYPE"]
+- ["13MyFamilyErBao13ImageDBMangerC", "USER_SQL_UPDATE"]
+- ["13MyFamilyErBao13ImageDBMangerC", "USER_SQL_UPDATE_CODE"]
+- ["13MyFamilyErBao13ImageDBMangerC", "USER_SQL_VERSION"]
+- ["13MyFamilyErBao13ImageDBMangerC", "USER_SQL_VERSION_CODE"]
+- ["13MyFamilyErBao13ImageDBMangerC", "USER_TABLENAME"]
+- !private ["13MyFamilyErBao13ImageDBMangerC", "UserDefaults"]
+- ["13MyFamilyErBao13ImageDBMangerC", "createTable"]
+- ["13MyFamilyErBao13ImageDBMangerC", "deinit"]
+- ["13MyFamilyErBao13ImageDBMangerC", "delectData"]
+- ["13MyFamilyErBao13ImageDBMangerC", "getAllDataUseSql"]
+- ["13MyFamilyErBao13ImageDBMangerC", "getOneData"]
+- ["13MyFamilyErBao13ImageDBMangerC", "getOneDataWithId"]
+- ["13MyFamilyErBao13ImageDBMangerC", "init"]
+- ["13MyFamilyErBao13ImageDBMangerC", "insertOrUpdateTable"]
+- !private ["13MyFamilyErBao10ImageModelC", "createTime"]
+- !private ["13MyFamilyErBao10ImageModelC", "des"]
+- !private ["13MyFamilyErBao10ImageModelC", "id"]
+- !private ["13MyFamilyErBao10ImageModelC", "imageDataPath"]
+- !private ["13MyFamilyErBao10ImageModelC", "init"]
+- !private ["13MyFamilyErBao10ImageModelC", "name"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
+- !private ["s25LosslessStringConvertibleP", "searchSql"]
+- !private ["s10MirrorPathP", "count"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
+- !private ["s10MirrorPathP", "searchSql"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "forEach"]
+- !private ["So8NSCodingP", "count"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
+- !private ["So8NSCodingP", "searchSql"]
+- !private ["So9NSCopyingP", "count"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
+- !private ["So9NSCopyingP", "searchSql"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderReadingP", "searchSql"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderWritingP", "searchSql"]
+- !private ["So16NSMutableCopyingP", "count"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
+- !private ["So16NSMutableCopyingP", "searchSql"]
+- !private ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "DBManager"]
+- !private ["So8NSObjectC", "Dictionary"]
+- ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "ImageDBManger"]
+- ["So8NSObjectC", "ImageModel"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "Int32"]
+- !private ["So8NSObjectC", "SQLITE_DOUBLE_TYPE"]
+- !private ["So8NSObjectC", "SQLITE_INT_TYPE"]
+- !private ["So8NSObjectC", "SQLITE_TEXT_TYPE"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "USER_SQL_TYPE"]
+- ["So8NSObjectC", "USER_SQL_UPDATE"]
+- ["So8NSObjectC", "USER_SQL_UPDATE_CODE"]
+- ["So8NSObjectC", "USER_SQL_VERSION"]
+- ["So8NSObjectC", "USER_SQL_VERSION_CODE"]
+- ["So8NSObjectC", "USER_TABLENAME"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- !private ["So8NSObjectC", "count"]
+- ["So8NSObjectC", "createTable"]
+- !private ["So8NSObjectC", "createTime"]
+- ["So8NSObjectC", "delectData"]
+- !private ["So8NSObjectC", "deleteTable"]
+- !private ["So8NSObjectC", "deleteTableSql"]
+- !private ["So8NSObjectC", "des"]
+- !private ["So8NSObjectC", "dropTable"]
+- !private ["So8NSObjectC", "execSql"]
+- ["So8NSObjectC", "getAllDataUseSql"]
+- ["So8NSObjectC", "getOneData"]
+- ["So8NSObjectC", "getOneDataWithId"]
+- !private ["So8NSObjectC", "id"]
+- !private ["So8NSObjectC", "imageDataPath"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "insertOrUpdateTable"]
+- !private ["So8NSObjectC", "insertTable"]
+- !private ["So8NSObjectC", "insertTableSql"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "querySql"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
+- !private ["So8NSObjectC", "searchSql"]
+- !private ["So8NSObjectC", "setValue"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "updateTable"]
+- !private ["So8NSObjectC", "updateTableSql"]
+- !private ["So8NSObjectC", "value"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "DBManager"]
+- !private ["So16NSObjectProtocolP", "Dictionary"]
+- !private ["So16NSObjectProtocolP", "ImageDBManger"]
+- !private ["So16NSObjectProtocolP", "ImageModel"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "SQLITE_DOUBLE_TYPE"]
+- !private ["So16NSObjectProtocolP", "SQLITE_INT_TYPE"]
+- !private ["So16NSObjectProtocolP", "SQLITE_TEXT_TYPE"]
+- !private ["So16NSObjectProtocolP", "USER_SQL_TYPE"]
+- !private ["So16NSObjectProtocolP", "USER_SQL_UPDATE"]
+- !private ["So16NSObjectProtocolP", "USER_SQL_UPDATE_CODE"]
+- !private ["So16NSObjectProtocolP", "USER_SQL_VERSION"]
+- !private ["So16NSObjectProtocolP", "USER_SQL_VERSION_CODE"]
+- !private ["So16NSObjectProtocolP", "USER_TABLENAME"]
+- !private ["So16NSObjectProtocolP", "UserDefaults"]
+- !private ["So16NSObjectProtocolP", "count"]
+- !private ["So16NSObjectProtocolP", "createTable"]
+- !private ["So16NSObjectProtocolP", "createTime"]
+- !private ["So16NSObjectProtocolP", "deleteTable"]
+- !private ["So16NSObjectProtocolP", "deleteTableSql"]
+- !private ["So16NSObjectProtocolP", "des"]
+- !private ["So16NSObjectProtocolP", "dropTable"]
+- !private ["So16NSObjectProtocolP", "execSql"]
+- !private ["So16NSObjectProtocolP", "getAllDataUseSql"]
+- !private ["So16NSObjectProtocolP", "getOneData"]
+- !private ["So16NSObjectProtocolP", "getOneDataWithId"]
+- !private ["So16NSObjectProtocolP", "id"]
+- !private ["So16NSObjectProtocolP", "imageDataPath"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "insertTable"]
+- !private ["So16NSObjectProtocolP", "insertTableSql"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "querySql"]
+- !private ["So16NSObjectProtocolP", "replacingOccurrences"]
+- !private ["So16NSObjectProtocolP", "searchSql"]
+- !private ["So16NSObjectProtocolP", "setValue"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "standard"]
+- !private ["So16NSObjectProtocolP", "updateTable"]
+- !private ["So16NSObjectProtocolP", "updateTableSql"]
+- !private ["So16NSObjectProtocolP", "value"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "count"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
+- !private ["So14NSSecureCodingP", "searchSql"]
+- !private ["So8NSStringC", "count"]
+- ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "replacingOccurrences"]
+- !private ["So8NSStringC", "searchSql"]
+- !private ["s7NumericP", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "forEach"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "forEach"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "replacingOccurrences"]
+- !private ["s26RangeReplaceableCollectionP", "searchSql"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "forEach"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "replacingOccurrences"]
+- !private ["s8SequenceP", "searchSql"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "updateValue"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "count"]
+- ["SS", "init"]
+- !private ["SS", "replacingOccurrences"]
+- !private ["SS", "searchSql"]
+- !private ["s14StringProtocolP", "count"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "replacingOccurrences"]
+- !private ["s14StringProtocolP", "searchSql"]
+- !private ["s16TextOutputStreamP", "count"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
+- !private ["s16TextOutputStreamP", "searchSql"]
+- !private ["s20TextOutputStreamableP", "count"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
+- !private ["s20TextOutputStreamableP", "searchSql"]
+- !private ["So12UserDefaultsC", "setValue"]
+- !private ["So12UserDefaultsC", "standard"]
+- !private ["So12UserDefaultsC", "value"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "forEach"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "replacingOccurrences"]
+- !private ["s23_BidirectionalIndexableP", "searchSql"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "searchSql"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "searchSql"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "count"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "replacingOccurrences"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "searchSql"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "searchSql"]
+- !private ["s33_ExpressibleByStringInterpolationP", "count"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- !private ["s33_ExpressibleByStringInterpolationP", "searchSql"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "searchSql"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "forEach"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "replacingOccurrences"]
+- !private ["s10_IndexableP", "searchSql"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s10_IndexableP", "updateValue"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "forEach"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "replacingOccurrences"]
+- !private ["s14_IndexableBaseP", "searchSql"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["s14_IndexableBaseP", "updateValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DBManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Dictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ImageDBManger"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ImageModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SQLITE_DOUBLE_TYPE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SQLITE_INT_TYPE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SQLITE_TEXT_TYPE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "USER_SQL_TYPE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "USER_SQL_UPDATE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "USER_SQL_UPDATE_CODE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "USER_SQL_VERSION"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "USER_SQL_VERSION_CODE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "USER_TABLENAME"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createTable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deleteTable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deleteTableSql"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "des"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dropTable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "execSql"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getAllDataUseSql"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getOneData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getOneDataWithId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageDataPath"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertTable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertTableSql"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "querySql"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "searchSql"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateTable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateTableSql"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s17_MutableIndexableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
+- !private ["s21_ObjectiveCBridgeableP", "searchSql"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "updateValue"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "forEach"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "forEach"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "replacingOccurrences"]
+- !private ["s26_RangeReplaceableIndexableP", "searchSql"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s16_SwiftStringViewP", "count"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "replacingOccurrences"]
+- !private ["s16_SwiftStringViewP", "searchSql"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- !private "7SnapKit24ConstraintConstantTargetP"
+- !private "7SnapKit21ConstraintInsetTargetP"
+- !private "7SnapKit26ConstraintMultiplierTargetP"
+- !private "7SnapKit22ConstraintOffsetTargetP"
+- !private "7SnapKit24ConstraintPriorityTargetP"
+- !private "7SnapKit25ConstraintRelatableTargetP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "13MyFamilyErBao9DBManagerC"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- "13MyFamilyErBao13ImageDBMangerC"
+- !private "13MyFamilyErBao10ImageModelC"
+- !private "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So12UserDefaultsC"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/SQLCipher/SQLCipher.framework/Headers/sqlite3.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/SQLCipher/SQLCipher.framework/Headers/SQLCipher-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZImagePickerController-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWTableViewUnit-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/UIScrollView+MWInfiniteScrolling.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/UIScrollView+MWPullToRefresh.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWPullToRefresh.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZAssetModel.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/TZPhotoCell.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZAssetCell.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPreviewCell.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWAnimatedGifPullToRefreshConfiguration.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Surpport Files/BridgeOCFileHeader.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZImageManager.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZLocationManager.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZImageCropManager.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/FOREmptyAssistantConfiger.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/NSBundle+TZImagePicker.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZImagePickerController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPickerController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZVideoPlayerController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPreviewController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZGifPhotoPreviewController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWAnimatedGifActivityIndicator.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/UIBarItem+Apperance_swift.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWTableViewUnit.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/FORScrollViewEmptyAssistant.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/UIView+Layout.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/LxGridViewFlowLayout.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZProgressView.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/EmptyViewFactory.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/EmptyViewFactory/MNEmptyViewFactory.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/SQLCipher/SQLCipher.framework/Modules/module.modulemap"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Modules/module.modulemap"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Modules/module.modulemap"
+interface-hash: "bd281bb46c9da4b87b76b15190dc1043"

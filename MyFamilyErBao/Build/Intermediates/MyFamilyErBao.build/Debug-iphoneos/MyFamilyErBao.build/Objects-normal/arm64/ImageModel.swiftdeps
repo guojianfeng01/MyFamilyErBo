@@ -1,0 +1,198 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageModel"
+provides-nominal:
+- "13MyFamilyErBao10ImageModelC"
+provides-member:
+- ["13MyFamilyErBao10ImageModelC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Data"
+- "Double"
+- "ImageModel"
+- "Int"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s9DecodableP", "init"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", ""]
+- ["13MyFamilyErBao10ImageModelC", "Data"]
+- ["13MyFamilyErBao10ImageModelC", "Double"]
+- ["13MyFamilyErBao10ImageModelC", "Int"]
+- ["13MyFamilyErBao10ImageModelC", "String"]
+- ["13MyFamilyErBao10ImageModelC", "createTime"]
+- ["13MyFamilyErBao10ImageModelC", "deinit"]
+- ["13MyFamilyErBao10ImageModelC", "des"]
+- ["13MyFamilyErBao10ImageModelC", "id"]
+- ["13MyFamilyErBao10ImageModelC", "imageData"]
+- ["13MyFamilyErBao10ImageModelC", "init"]
+- ["13MyFamilyErBao10ImageModelC", "name"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "createTime"]
+- ["So8NSObjectC", "des"]
+- ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "imageData"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "name"]
+- ["So8NSObjectC", ""]
+- ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "13MyFamilyErBao10ImageModelC"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s23_BidirectionalIndexableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/SQLCipher/SQLCipher.framework/Headers/sqlite3.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/SQLCipher/SQLCipher.framework/Headers/SQLCipher-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZImagePickerController-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWTableViewUnit-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/UIScrollView+MWInfiniteScrolling.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/UIScrollView+MWPullToRefresh.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWPullToRefresh.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZAssetModel.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/TZPhotoCell.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZAssetCell.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPreviewCell.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWAnimatedGifPullToRefreshConfiguration.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Surpport Files/BridgeOCFileHeader.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZImageManager.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZLocationManager.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZImageCropManager.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/FOREmptyAssistantConfiger.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/NSBundle+TZImagePicker.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZImagePickerController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPickerController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZVideoPlayerController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPreviewController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZGifPhotoPreviewController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWAnimatedGifActivityIndicator.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/UIBarItem+Apperance_swift.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWTableViewUnit.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/FORScrollViewEmptyAssistant.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/UIView+Layout.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/LxGridViewFlowLayout.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZProgressView.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Headers/EmptyViewFactory.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/EmptyViewFactory/MNEmptyViewFactory.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/SQLCipher/SQLCipher.framework/Modules/module.modulemap"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Modules/module.modulemap"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/MWTableViewUnit/MWTableViewUnit.framework/Modules/module.modulemap"
+interface-hash: "d2ff06a64400628ea509f9f3052eb954"

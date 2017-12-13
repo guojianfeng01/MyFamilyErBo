@@ -1,0 +1,6 @@
+framework module MWTableViewUnit {
+  umbrella header "MWTableViewUnit-umbrella.h"
+
+  export *
+  module * { export * }
+}

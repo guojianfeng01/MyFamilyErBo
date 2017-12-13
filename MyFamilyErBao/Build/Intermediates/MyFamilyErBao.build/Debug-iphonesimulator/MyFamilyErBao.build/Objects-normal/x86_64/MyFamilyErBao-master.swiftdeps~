@@ -1,0 +1,20 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "c70ebf6e206b725ecec9aa5a8e53e545"
+build_time: [1513133018, 317515000]
+inputs:
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/PhotoView.swift": [1511319434, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Section/Mine/SetUpViewController.swift": [1510555756, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/General/View/NavigationViewController.swift": [1510800656, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Section/Add/AddViewController.swift": [1513133018, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/TextView/WGTextView.swift": [1511254217, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/Menu/PathMenuItem.swift": [1510563462, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/Menu/PathMenu.swift": [1510799649, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/General/View/ViewController.swift": [1510303475, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Helper/ImageDBManger.swift": [1513131046, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Helper/DBManager.swift": [1513055755, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Macro/UIDefine.swift": [1510552728, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Helper/ImageFileManager.swift": [1513129466, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Aplication/AppDelegate.swift": [1511250560, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Section/Home/view/HomeTableViewCell.swift": [1510810950, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Section/Home/HomeViewController.swift": [1513130338, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Macro/ImageModel.swift": [1513130115, 0]

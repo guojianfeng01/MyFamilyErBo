@@ -1,0 +1,533 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "13MyFamilyErBao11AppDelegateC"
+provides-member:
+- ["13MyFamilyErBao11AppDelegateC", ""]
+provides-dynamic-lookup:
+- "application"
+- "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+- "window"
+depends-top-level:
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "HomeViewController"
+- !private "ImageDBManger"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIApplicationLaunchOptionsKey"
+- !private "UIColor"
+- !private "UINavigationController"
+- "UIResponder"
+- "UIWindow"
+depends-member:
+- ["13MyFamilyErBao11AppDelegateC", "Bool"]
+- !private ["13MyFamilyErBao11AppDelegateC", "HomeViewController"]
+- !private ["13MyFamilyErBao11AppDelegateC", "ImageDBManger"]
+- ["13MyFamilyErBao11AppDelegateC", "UIApplication"]
+- ["13MyFamilyErBao11AppDelegateC", "UIApplicationLaunchOptionsKey"]
+- !private ["13MyFamilyErBao11AppDelegateC", "UIColor"]
+- !private ["13MyFamilyErBao11AppDelegateC", "UINavigationController"]
+- ["13MyFamilyErBao11AppDelegateC", "UIWindow"]
+- ["13MyFamilyErBao11AppDelegateC", "application"]
+- ["13MyFamilyErBao11AppDelegateC", "applicationDidBecomeActive"]
+- ["13MyFamilyErBao11AppDelegateC", "applicationDidEnterBackground"]
+- ["13MyFamilyErBao11AppDelegateC", "applicationDidFinishLaunching"]
+- ["13MyFamilyErBao11AppDelegateC", "applicationDidReceiveMemoryWarning"]
+- ["13MyFamilyErBao11AppDelegateC", "applicationProtectedDataDidBecomeAvailable"]
+- ["13MyFamilyErBao11AppDelegateC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["13MyFamilyErBao11AppDelegateC", "applicationShouldRequestHealthAuthorization"]
+- ["13MyFamilyErBao11AppDelegateC", "applicationSignificantTimeChange"]
+- ["13MyFamilyErBao11AppDelegateC", "applicationWillEnterForeground"]
+- ["13MyFamilyErBao11AppDelegateC", "applicationWillResignActive"]
+- ["13MyFamilyErBao11AppDelegateC", "applicationWillTerminate"]
+- ["13MyFamilyErBao11AppDelegateC", "deinit"]
+- ["13MyFamilyErBao11AppDelegateC", "init"]
+- ["13MyFamilyErBao11AppDelegateC", "window"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "makeKeyAndVisible"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["s7CVarArgP", "HomeViewController"]
+- !private ["s7CVarArgP", "ImageDBManger"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UINavigationController"]
+- !private ["s7CVarArgP", "UIWindow"]
+- ["s7CVarArgP", "application"]
+- ["s7CVarArgP", "applicationDidBecomeActive"]
+- ["s7CVarArgP", "applicationDidEnterBackground"]
+- ["s7CVarArgP", "applicationDidFinishLaunching"]
+- ["s7CVarArgP", "applicationDidReceiveMemoryWarning"]
+- ["s7CVarArgP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s7CVarArgP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s7CVarArgP", "applicationShouldRequestHealthAuthorization"]
+- ["s7CVarArgP", "applicationSignificantTimeChange"]
+- ["s7CVarArgP", "applicationWillEnterForeground"]
+- ["s7CVarArgP", "applicationWillResignActive"]
+- ["s7CVarArgP", "applicationWillTerminate"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "createTable"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "makeKeyAndVisible"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "white"]
+- ["s7CVarArgP", "window"]
+- ["s7CVarArgP", ""]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "backgroundColor"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "makeKeyAndVisible"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "HomeViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "ImageDBManger"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UINavigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIWindow"]
+- ["s28CustomDebugStringConvertibleP", "application"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidFinishLaunching"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidReceiveMemoryWarning"]
+- ["s28CustomDebugStringConvertibleP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s28CustomDebugStringConvertibleP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s28CustomDebugStringConvertibleP", "applicationShouldRequestHealthAuthorization"]
+- ["s28CustomDebugStringConvertibleP", "applicationSignificantTimeChange"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillEnterForeground"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "createTable"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- ["s28CustomDebugStringConvertibleP", "window"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "HomeViewController"]
+- !private ["s23CustomStringConvertibleP", "ImageDBManger"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UINavigationController"]
+- !private ["s23CustomStringConvertibleP", "UIWindow"]
+- ["s23CustomStringConvertibleP", "application"]
+- ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
+- ["s23CustomStringConvertibleP", "applicationDidEnterBackground"]
+- ["s23CustomStringConvertibleP", "applicationDidFinishLaunching"]
+- ["s23CustomStringConvertibleP", "applicationDidReceiveMemoryWarning"]
+- ["s23CustomStringConvertibleP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s23CustomStringConvertibleP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s23CustomStringConvertibleP", "applicationShouldRequestHealthAuthorization"]
+- ["s23CustomStringConvertibleP", "applicationSignificantTimeChange"]
+- ["s23CustomStringConvertibleP", "applicationWillEnterForeground"]
+- ["s23CustomStringConvertibleP", "applicationWillResignActive"]
+- ["s23CustomStringConvertibleP", "applicationWillTerminate"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "createTable"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- ["s23CustomStringConvertibleP", "window"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "HomeViewController"]
+- !private ["s9EquatableP", "ImageDBManger"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UINavigationController"]
+- !private ["s9EquatableP", "UIWindow"]
+- ["s9EquatableP", "application"]
+- ["s9EquatableP", "applicationDidBecomeActive"]
+- ["s9EquatableP", "applicationDidEnterBackground"]
+- ["s9EquatableP", "applicationDidFinishLaunching"]
+- ["s9EquatableP", "applicationDidReceiveMemoryWarning"]
+- ["s9EquatableP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s9EquatableP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s9EquatableP", "applicationShouldRequestHealthAuthorization"]
+- ["s9EquatableP", "applicationSignificantTimeChange"]
+- ["s9EquatableP", "applicationWillEnterForeground"]
+- ["s9EquatableP", "applicationWillResignActive"]
+- ["s9EquatableP", "applicationWillTerminate"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "createTable"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "makeKeyAndVisible"]
+- !private ["s9EquatableP", "rootViewController"]
+- !private ["s9EquatableP", "white"]
+- ["s9EquatableP", "window"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "HomeViewController"]
+- !private ["s8HashableP", "ImageDBManger"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UINavigationController"]
+- !private ["s8HashableP", "UIWindow"]
+- ["s8HashableP", "application"]
+- ["s8HashableP", "applicationDidBecomeActive"]
+- ["s8HashableP", "applicationDidEnterBackground"]
+- ["s8HashableP", "applicationDidFinishLaunching"]
+- ["s8HashableP", "applicationDidReceiveMemoryWarning"]
+- ["s8HashableP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s8HashableP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s8HashableP", "applicationShouldRequestHealthAuthorization"]
+- ["s8HashableP", "applicationSignificantTimeChange"]
+- ["s8HashableP", "applicationWillEnterForeground"]
+- ["s8HashableP", "applicationWillResignActive"]
+- ["s8HashableP", "applicationWillTerminate"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "createTable"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "makeKeyAndVisible"]
+- !private ["s8HashableP", "rootViewController"]
+- !private ["s8HashableP", "white"]
+- ["s8HashableP", "window"]
+- ["s8HashableP", ""]
+- !private ["13MyFamilyErBao18HomeViewControllerC", "init"]
+- !private ["13MyFamilyErBao13ImageDBMangerC", "createTable"]
+- !private ["7SnapKit20LayoutConstraintItemP", "backgroundColor"]
+- !private ["7SnapKit20LayoutConstraintItemP", "init"]
+- !private ["7SnapKit20LayoutConstraintItemP", "makeKeyAndVisible"]
+- !private ["7SnapKit20LayoutConstraintItemP", "rootViewController"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "makeKeyAndVisible"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "HomeViewController"]
+- !private ["So8NSObjectC", "ImageDBManger"]
+- ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UINavigationController"]
+- ["So8NSObjectC", "UIWindow"]
+- ["So8NSObjectC", "application"]
+- ["So8NSObjectC", "applicationDidBecomeActive"]
+- ["So8NSObjectC", "applicationDidEnterBackground"]
+- ["So8NSObjectC", "applicationDidFinishLaunching"]
+- ["So8NSObjectC", "applicationDidReceiveMemoryWarning"]
+- ["So8NSObjectC", "applicationProtectedDataDidBecomeAvailable"]
+- ["So8NSObjectC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So8NSObjectC", "applicationShouldRequestHealthAuthorization"]
+- ["So8NSObjectC", "applicationSignificantTimeChange"]
+- ["So8NSObjectC", "applicationWillEnterForeground"]
+- ["So8NSObjectC", "applicationWillResignActive"]
+- ["So8NSObjectC", "applicationWillTerminate"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "createTable"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "makeKeyAndVisible"]
+- !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectC", "white"]
+- ["So8NSObjectC", "window"]
+- !private ["So16NSObjectProtocolP", "HomeViewController"]
+- !private ["So16NSObjectProtocolP", "ImageDBManger"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UINavigationController"]
+- !private ["So16NSObjectProtocolP", "UIWindow"]
+- ["So16NSObjectProtocolP", "application"]
+- ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
+- ["So16NSObjectProtocolP", "applicationDidEnterBackground"]
+- ["So16NSObjectProtocolP", "applicationDidFinishLaunching"]
+- ["So16NSObjectProtocolP", "applicationDidReceiveMemoryWarning"]
+- ["So16NSObjectProtocolP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So16NSObjectProtocolP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So16NSObjectProtocolP", "applicationShouldRequestHealthAuthorization"]
+- ["So16NSObjectProtocolP", "applicationSignificantTimeChange"]
+- ["So16NSObjectProtocolP", "applicationWillEnterForeground"]
+- ["So16NSObjectProtocolP", "applicationWillResignActive"]
+- ["So16NSObjectProtocolP", "applicationWillTerminate"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "createTable"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "makeKeyAndVisible"]
+- !private ["So16NSObjectProtocolP", "rootViewController"]
+- !private ["So16NSObjectProtocolP", "white"]
+- ["So16NSObjectProtocolP", "window"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["13MyFamilyErBao16PathMenuDelegateP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "makeKeyAndVisible"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "makeKeyAndVisible"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "makeKeyAndVisible"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIApplicationDelegateP", "HomeViewController"]
+- !private ["So21UIApplicationDelegateP", "ImageDBManger"]
+- !private ["So21UIApplicationDelegateP", "UIColor"]
+- !private ["So21UIApplicationDelegateP", "UINavigationController"]
+- !private ["So21UIApplicationDelegateP", "UIWindow"]
+- ["So21UIApplicationDelegateP", "application"]
+- ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
+- ["So21UIApplicationDelegateP", "applicationDidEnterBackground"]
+- ["So21UIApplicationDelegateP", "applicationDidFinishLaunching"]
+- ["So21UIApplicationDelegateP", "applicationDidReceiveMemoryWarning"]
+- ["So21UIApplicationDelegateP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So21UIApplicationDelegateP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So21UIApplicationDelegateP", "applicationShouldRequestHealthAuthorization"]
+- ["So21UIApplicationDelegateP", "applicationSignificantTimeChange"]
+- ["So21UIApplicationDelegateP", "applicationWillEnterForeground"]
+- ["So21UIApplicationDelegateP", "applicationWillResignActive"]
+- ["So21UIApplicationDelegateP", "applicationWillTerminate"]
+- ["So21UIApplicationDelegateP", "window"]
+- ["So21UIApplicationDelegateP", ""]
+- !private ["So7UIColorC", "white"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "makeKeyAndVisible"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "makeKeyAndVisible"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "makeKeyAndVisible"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So22UINavigationControllerC", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "HomeViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "ImageDBManger"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINavigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIWindow"]
+- ["So30UIPasteConfigurationSupportingP", "application"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidEnterBackground"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidFinishLaunching"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidReceiveMemoryWarning"]
+- ["So30UIPasteConfigurationSupportingP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So30UIPasteConfigurationSupportingP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So30UIPasteConfigurationSupportingP", "applicationShouldRequestHealthAuthorization"]
+- ["So30UIPasteConfigurationSupportingP", "applicationSignificantTimeChange"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillEnterForeground"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillResignActive"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "makeKeyAndVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- ["So30UIPasteConfigurationSupportingP", "window"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "HomeViewController"]
+- !private ["So11UIResponderC", "ImageDBManger"]
+- ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UINavigationController"]
+- ["So11UIResponderC", "UIWindow"]
+- ["So11UIResponderC", "application"]
+- ["So11UIResponderC", "applicationDidBecomeActive"]
+- ["So11UIResponderC", "applicationDidEnterBackground"]
+- ["So11UIResponderC", "applicationDidFinishLaunching"]
+- ["So11UIResponderC", "applicationDidReceiveMemoryWarning"]
+- ["So11UIResponderC", "applicationProtectedDataDidBecomeAvailable"]
+- ["So11UIResponderC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So11UIResponderC", "applicationShouldRequestHealthAuthorization"]
+- ["So11UIResponderC", "applicationSignificantTimeChange"]
+- ["So11UIResponderC", "applicationWillEnterForeground"]
+- ["So11UIResponderC", "applicationWillResignActive"]
+- ["So11UIResponderC", "applicationWillTerminate"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "makeKeyAndVisible"]
+- !private ["So11UIResponderC", "rootViewController"]
+- ["So11UIResponderC", "window"]
+- ["So11UIResponderC", ""]
+- !private ["So30UIResponderStandardEditActionsP", "HomeViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "ImageDBManger"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UINavigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIWindow"]
+- ["So30UIResponderStandardEditActionsP", "application"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidEnterBackground"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidFinishLaunching"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidReceiveMemoryWarning"]
+- ["So30UIResponderStandardEditActionsP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So30UIResponderStandardEditActionsP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So30UIResponderStandardEditActionsP", "applicationShouldRequestHealthAuthorization"]
+- ["So30UIResponderStandardEditActionsP", "applicationSignificantTimeChange"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillEnterForeground"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillResignActive"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "makeKeyAndVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- ["So30UIResponderStandardEditActionsP", "window"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "makeKeyAndVisible"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So8UIWindowC", "backgroundColor"]
+- !private ["So8UIWindowC", "init"]
+- !private ["So8UIWindowC", "makeKeyAndVisible"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["13MyFamilyErBao14ViewControllerC", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "makeKeyAndVisible"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HomeViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ImageDBManger"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIWindow"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "application"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidFinishLaunching"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidReceiveMemoryWarning"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationProtectedDataDidBecomeAvailable"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationShouldRequestHealthAuthorization"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationSignificantTimeChange"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterForeground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createTable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeKeyAndVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "13MyFamilyErBao11AppDelegateC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "7SnapKit25ConstraintRelatableTargetP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- !private "13MyFamilyErBao18HomeViewControllerC"
+- !private "13MyFamilyErBao13ImageDBMangerC"
+- !private "7SnapKit20LayoutConstraintItemP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "13MyFamilyErBao16PathMenuDelegateP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- "So21UIApplicationDelegateP"
+- !private "So7UIColorC"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So16UIStateRestoringP"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- !private "13MyFamilyErBao14ViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/SQLCipher/SQLCipher.framework/Headers/sqlite3.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/SQLCipher/SQLCipher.framework/Headers/SQLCipher-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZImagePickerController-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWTableViewUnit-umbrella.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/UIScrollView+MWInfiniteScrolling.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/UIScrollView+MWPullToRefresh.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWPullToRefresh.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZAssetModel.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/TZPhotoCell.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZAssetCell.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPreviewCell.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWAnimatedGifPullToRefreshConfiguration.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Surpport Files/BridgeOCFileHeader.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZImageManager.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZLocationManager.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZImageCropManager.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/FOREmptyAssistantConfiger.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/NSBundle+TZImagePicker.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZImagePickerController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPickerController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZVideoPlayerController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPreviewController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZGifPhotoPreviewController.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWAnimatedGifActivityIndicator.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/UIBarItem+Apperance_swift.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/MWTableViewUnit.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/FORScrollViewEmptyAssistant.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/UIView+Layout.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/LxGridViewFlowLayout.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Headers/TZProgressView.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Headers/EmptyViewFactory.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/EmptyViewFactory/MNEmptyViewFactory.h"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/SQLCipher/SQLCipher.framework/Modules/module.modulemap"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/TZImagePickerController/TZImagePickerController.framework/Modules/module.modulemap"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphonesimulator/MWTableViewUnit/MWTableViewUnit.framework/Modules/module.modulemap"
+interface-hash: "b306772a10463f7c5fce689aa6452f8e"

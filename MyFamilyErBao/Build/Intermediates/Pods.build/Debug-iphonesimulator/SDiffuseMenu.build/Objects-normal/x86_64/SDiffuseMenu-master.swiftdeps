@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "5d6656c0f585ac8a7d1e02760a81e98d"
+build_time: [1510469923, 489342000]
+inputs:
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Pods/SDiffuseMenu/SDiffuseMenu/SDiffuseMenu.swift": [1510469863, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Pods/SDiffuseMenu/SDiffuseMenu/SDiffuseMenuItem.swift": [1510469863, 0]

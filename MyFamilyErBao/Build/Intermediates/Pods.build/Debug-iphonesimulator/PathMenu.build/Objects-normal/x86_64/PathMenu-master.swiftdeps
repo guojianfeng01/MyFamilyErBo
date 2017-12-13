@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "d6180be848793dfa45d9ceb2ce7ab04c"
+build_time: [1510540848, 867561000]
+inputs:
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Pods/PathMenu/PathMenu/PathMenu.swift": !dirty [1510540816, 0]
+  "/Users/guojianfeng/Desktop/github/MyFamilyErBao/Pods/PathMenu/PathMenu/PathMenuItem.swift": [1510540816, 0]

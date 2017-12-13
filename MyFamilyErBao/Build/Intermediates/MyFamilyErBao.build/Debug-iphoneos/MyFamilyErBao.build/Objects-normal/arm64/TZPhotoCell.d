@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/TZPhotoCell.m \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/MyFamilyErBao/Vender/PhotoView/TZPhotoCell.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/UIView+Layout.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Modules/module.modulemap \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZVideoPlayerController.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZProgressView.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPreviewController.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPreviewCell.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZPhotoPickerController.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZLocationManager.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZImagePickerController.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZImageManager.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZImageCropManager.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZGifPhotoPreviewController.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZAssetModel.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZAssetCell.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/NSBundle+TZImagePicker.h \
+  /Users/guojianfeng/Desktop/github/MyFamilyErBao/Build/Products/Debug-iphoneos/TZImagePickerController/TZImagePickerController.framework/Headers/TZImagePickerController-umbrella.h

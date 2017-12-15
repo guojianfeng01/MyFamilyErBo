@@ -38,7 +38,7 @@ class AddViewController: ViewController {
         titleTextField.layer.borderColor = UIColor.clear.cgColor
         descriptionText.layer.borderColor = UIColor.clear.cgColor
         photoView.isShow = true
-        view.isUserInteractionEnabled = false
+//        view.isUserInteractionEnabled = false
         navigationItem.rightBarButtonItem = nil
         title = "预览"
     }

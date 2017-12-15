@@ -144,7 +144,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
             }
         }
         
-        vc.updateUI(model.name, model.des,model.createTime,images)
+        vc.updateUI(model,images)
         navigationController?.pushViewController(vc, animated: true)
     }
 }

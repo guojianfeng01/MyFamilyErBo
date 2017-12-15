@@ -83,10 +83,19 @@ class ImageDBManger: NSObject {
             
             
         }else{
-            if ImageDBManger.getOneData(model.createTime){
+            if ImageDBManger.getOneDataWithId(model.id){
                 result = DBManager.shared.updateTableSql(tableName: USER_TABLENAME, andColoumValue: dic, andWhereParam: whereParam)
                 
             }else {
+                model.id = Int(arc4random())
+                while true{
+                    if ImageDBManger.getOneDataWithId(model.id){
+                        model.id = Int(arc4random())
+                    }else{
+                        break
+                    }
+                }
+                dic.updateValue(model.id as AnyObject, forKey: "id")
                 result =  DBManager.shared.insertTableSql(tableName: USER_TABLENAME, andColoumValue: dic)
                 
             }

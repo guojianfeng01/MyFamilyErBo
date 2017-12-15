@@ -16,6 +16,7 @@ class PhotoView: UIView {
     
     open var allowPickingVideoSwitch: Bool = false
     open var allowPickingImageSwitch: Bool = true
+    open var isShow: Bool = false
     open var selectedPhoto: NSMutableArray!{
         didSet{
             selectedAssets = NSMutableArray.init(array: selectedPhoto)
@@ -62,14 +63,18 @@ class PhotoView: UIView {
         barItem?.setTitleTextAttributes([stringKey:titleTextAttributes!.values.first!], for: .normal)
         return imagePickerVc
     }()
-    
-    
 }
 
 //MARK: action
 extension PhotoView{
     @objc  func deleteBtnClick(_ sender: UIButton){
-        print("\(sender.tag)")
+        if sender.tag < selectedPhoto.count{
+            selectedPhoto.removeObject(at: sender.tag)
+        }
+        if sender.tag < selectedAssets.count{
+            selectedAssets.removeObject(at: sender.tag)
+        }
+        collectionView.reloadData()
     }
 }
 
@@ -132,6 +137,8 @@ extension PhotoView: UIImagePickerControllerDelegate, UINavigationControllerDele
         UIApplication.shared.keyWindow?.subviews.last?.isHidden = true
         controller(view: self)?.present(imagePickerController!, animated: true, completion: nil)
     }
+    
+  
 }
 
 //MARK: LxGridViewDataSource
@@ -159,7 +166,7 @@ extension PhotoView: LxGridViewDataSource{
 //MARK: UICollectionViewConfig
 extension PhotoView: UICollectionViewDelegate,UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return selectedPhoto.count + 1
+        return  isShow ? selectedPhoto.count : selectedPhoto.count + 1
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -173,7 +180,7 @@ extension PhotoView: UICollectionViewDelegate,UICollectionViewDataSource{
         } else {
             cell.imageView.image = selectedPhoto[indexPath.row] as? UIImage
             cell.asset = selectedAssets[indexPath.row];
-            cell.deleteBtn.isHidden = false
+            cell.deleteBtn.isHidden = isShow
         }
         
         cell.deleteBtn.tag = indexPath.row

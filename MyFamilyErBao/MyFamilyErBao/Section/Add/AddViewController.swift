@@ -23,21 +23,21 @@ class AddViewController: ViewController {
         title = "添加"
         automaticallyAdjustsScrollViewInsets = false
         configUI()
-        
-        
-        // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
         UIApplication.shared.keyWindow?.subviews.last?.isHidden = false
     }
     
-    func updateUI(_ name: String!,_ des: String!,_ time: Double,_ photos: NSMutableArray!){
-        titleTextField.text = name
-        descriptionText.text = des
+    func updateUI(_ updatemodel: ImageModel ,_ photos: NSMutableArray!){
+        titleTextField.text = updatemodel.name
+        descriptionText.text = updatemodel.des
         photoView.selectedPhoto = photos
-        model?.createTime = time
-        
+        model?.createTime = updatemodel.createTime
+        model?.id = updatemodel.id
+        titleTextField.layer.borderColor = UIColor.clear.cgColor
+        descriptionText.layer.borderColor = UIColor.clear.cgColor
+        photoView.isShow = true
         view.isUserInteractionEnabled = false
         navigationItem.rightBarButtonItem = nil
         title = "预览"

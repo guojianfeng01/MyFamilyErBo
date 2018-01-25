@@ -18,6 +18,9 @@
 		6E918FF41FBEB8D2005718F2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E918FF31FBEB8D2005718F2 /* libsqlite3.tbd */; };
 		6E95D9991FDF9DA500704407 /* ImageFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E95D9981FDF9DA500704407 /* ImageFileManager.swift */; };
 		6E9C59071FB5D9B7009A10FB /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C59061FB5D9B6009A10FB /* NavigationViewController.swift */; };
+		6EC388C01FF22030007B225F /* PhotoShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC388BF1FF22030007B225F /* PhotoShowView.swift */; };
+		6EC388C41FF22E86007B225F /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC388C31FF22E86007B225F /* View.swift */; };
+		6EC388C61FF22FF0007B225F /* ShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC388C51FF22FF0007B225F /* ShowDetailViewController.swift */; };
 		6EEF51351FB82A5000BE748F /* UIDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF51341FB82A5000BE748F /* UIDefine.swift */; };
 		6EEF513D1FB96C8200BE748F /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF513C1FB96C8200BE748F /* AddViewController.swift */; };
 		6EEF513F1FB96C8F00BE748F /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF513E1FB96C8F00BE748F /* SetUpViewController.swift */; };
@@ -68,6 +71,9 @@
 		6E95D9981FDF9DA500704407 /* ImageFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFileManager.swift; sourceTree = "<group>"; };
 		6E9C59041FB5D66C009A10FB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyFamilyErBao/Info.plist; sourceTree = SOURCE_ROOT; };
 		6E9C59061FB5D9B6009A10FB /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		6EC388BF1FF22030007B225F /* PhotoShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoShowView.swift; sourceTree = "<group>"; };
+		6EC388C31FF22E86007B225F /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		6EC388C51FF22FF0007B225F /* ShowDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailViewController.swift; sourceTree = "<group>"; };
 		6EEF51341FB82A5000BE748F /* UIDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDefine.swift; sourceTree = "<group>"; };
 		6EEF513C1FB96C8200BE748F /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		6EEF513E1FB96C8F00BE748F /* SetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
@@ -175,6 +181,7 @@
 				6EEF51751FBD3AC700BE748F /* Model */,
 				6EEF51741FBD3AC700BE748F /* view */,
 				6E8B462F1FB59FE500C787F8 /* HomeViewController.swift */,
+				6EC388C51FF22FF0007B225F /* ShowDetailViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -226,6 +233,7 @@
 			children = (
 				6E8B462D1FB59FBC00C787F8 /* ViewController.swift */,
 				6E9C59061FB5D9B6009A10FB /* NavigationViewController.swift */,
+				6EC388C31FF22E86007B225F /* View.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,6 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				6EEF51611FBC101A00BE748F /* PhotoView.swift */,
+				6EC388BF1FF22030007B225F /* PhotoShowView.swift */,
 				6EEF515B1FBC0C4900BE748F /* LxGridViewFlowLayout.h */,
 				6EEF515E1FBC0C4B00BE748F /* LxGridViewFlowLayout.m */,
 				6EEF515D1FBC0C4A00BE748F /* TZPhotoCell.h */,
@@ -468,6 +477,8 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AnimatedGIFImageSerialization/AnimatedGIFImageSerialization.framework",
 				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/JXPhotoBrowser/JXPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MWTableViewUnit/MWTableViewUnit.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLCipher/SQLCipher.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -478,6 +489,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnimatedGIFImageSerialization.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MWTableViewUnit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLCipher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
@@ -543,10 +556,13 @@
 				6E918FF21FBEB420005718F2 /* DBManager.swift in Sources */,
 				6EEF51351FB82A5000BE748F /* UIDefine.swift in Sources */,
 				6EEF51731FBD38CF00BE748F /* MNEmptyViewFactory.m in Sources */,
+				6EC388C01FF22030007B225F /* PhotoShowView.swift in Sources */,
 				6E95D9991FDF9DA500704407 /* ImageFileManager.swift in Sources */,
 				6E8B462A1FB59F2600C787F8 /* AppDelegate.swift in Sources */,
 				6EEF51771FBD3AE200BE748F /* HomeTableViewCell.swift in Sources */,
 				6E8B46301FB59FE500C787F8 /* HomeViewController.swift in Sources */,
+				6EC388C61FF22FF0007B225F /* ShowDetailViewController.swift in Sources */,
+				6EC388C41FF22E86007B225F /* View.swift in Sources */,
 				6E5F2C3B1FC3C672004A0BA5 /* ImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

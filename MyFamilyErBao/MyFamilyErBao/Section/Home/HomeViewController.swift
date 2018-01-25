@@ -132,7 +132,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vc = AddViewController()
+        let vc = ShowDetailViewController()
         let model = dataSource[indexPath.row]
         let images: NSMutableArray! = NSMutableArray()
         
@@ -144,7 +144,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
             }
         }
         
-        vc.updateUI(model,images)
+        vc.showPhotos = images
         navigationController?.pushViewController(vc, animated: true)
     }
 }

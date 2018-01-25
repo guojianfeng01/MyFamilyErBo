@@ -32,13 +32,12 @@ class AddViewController: ViewController {
     func updateUI(_ updatemodel: ImageModel ,_ photos: NSMutableArray!){
         titleTextField.text = updatemodel.name
         descriptionText.text = updatemodel.des
+        photoView.isShow = true
         photoView.selectedPhoto = photos
         model?.createTime = updatemodel.createTime
         model?.id = updatemodel.id
         titleTextField.layer.borderColor = UIColor.clear.cgColor
         descriptionText.layer.borderColor = UIColor.clear.cgColor
-        photoView.isShow = true
-//        view.isUserInteractionEnabled = false
         navigationItem.rightBarButtonItem = nil
         title = "预览"
     }

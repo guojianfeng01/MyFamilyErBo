@@ -28,6 +28,20 @@ class PhotoView: UIView {
     fileprivate var itemWH: CGFloat = 0.0
     fileprivate var selectedAssets: NSMutableArray!
     
+    fileprivate lazy var collectionView: UICollectionView! = UICollectionView.init(frame: CGRect.zero, collectionViewLayout: flowLayout)
+    fileprivate lazy var flowLayout: LxGridViewFlowLayout! = LxGridViewFlowLayout.init()
+    fileprivate lazy var imagePickerVc: UIImagePickerController! = {
+        let imagePickerVc = UIImagePickerController()
+        imagePickerVc.delegate = self
+        let tzBarItem = UIBarButtonItem.aw_appearanceWhenContained(in: TZImagePickerController.self)
+        let barItem = UIBarButtonItem.aw_appearanceWhenContained(in: UIImagePickerController.self)
+        let titleTextAttributes = tzBarItem?.titleTextAttributes(for: .normal)
+        
+        let stringKey = NSAttributedStringKey.init(rawValue: (titleTextAttributes?.keys.first)!)
+        barItem?.setTitleTextAttributes([stringKey:titleTextAttributes!.values.first!], for: .normal)
+        return imagePickerVc
+    }()
+    
     override func draw(_ rect: CGRect) {
         
     }
@@ -49,20 +63,6 @@ class PhotoView: UIView {
         self.addSubview(collectionView)
         collectionView.register(TZPhotoCell.self, forCellWithReuseIdentifier: "TZPhotoCellID")
     }
-    
-    fileprivate lazy var collectionView: UICollectionView! = UICollectionView.init(frame: CGRect.zero, collectionViewLayout: flowLayout)
-    fileprivate lazy var flowLayout: LxGridViewFlowLayout! = LxGridViewFlowLayout.init()
-    fileprivate lazy var imagePickerVc: UIImagePickerController! = {
-        let imagePickerVc = UIImagePickerController()
-        imagePickerVc.delegate = self
-        let tzBarItem = UIBarButtonItem.aw_appearanceWhenContained(in: TZImagePickerController.self)
-        let barItem = UIBarButtonItem.aw_appearanceWhenContained(in: UIImagePickerController.self)
-        let titleTextAttributes = tzBarItem?.titleTextAttributes(for: .normal)
-        
-        let stringKey = NSAttributedStringKey.init(rawValue: (titleTextAttributes?.keys.first)!)
-        barItem?.setTitleTextAttributes([stringKey:titleTextAttributes!.values.first!], for: .normal)
-        return imagePickerVc
-    }()
 }
 
 //MARK: action
@@ -138,6 +138,15 @@ extension PhotoView: UIImagePickerControllerDelegate, UINavigationControllerDele
         controller(view: self)?.present(imagePickerController!, animated: true, completion: nil)
     }
     
+    
+    func photoShowBig2(_ indexPath: IndexPath){
+        let imagePickerController = TZPhotoPreviewController.init()
+        imagePickerController.currentIndex = indexPath.row
+        imagePickerController.isSelectOriginalPhoto = true
+        imagePickerController.photos = NSMutableArray.init(array: selectedPhoto)
+        UIApplication.shared.keyWindow?.subviews.last?.isHidden = true
+        controller(view: self)?.present(imagePickerController, animated: true, completion: nil)
+    }
   
 }
 
@@ -192,7 +201,7 @@ extension PhotoView: UICollectionViewDelegate,UICollectionViewDataSource{
         if indexPath.row == selectedPhoto.count {
             pushTZImagePickerController()
         } else {
-           photoShowBig(indexPath)
+           photoShowBig2(indexPath)
         }
     }
 }
